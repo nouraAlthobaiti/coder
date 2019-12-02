@@ -1,0 +1,38 @@
+https://medium.com/createdd-notes/starting-with-authentication-a-tutorial-with-node-js-and-mongodb-25d524ca0359
+_______________________________________
+simple user sign js mongo
+_______________________________________
+    # user management #
+
+npm install bcrypt  --> hash password <not working> <just with visual studio & c > <npm install --global --production windows-build-tools> or <cmd nodejs install additional tool> 
+_______________________________________
+
+npm install express-session --> <Create a session middleware>
+
+_______________________________________
+npm install connect-mongo
+_______________________________________
+
+		# get vs post #
+
+The $.get() method requests data from the server with an HTTP GET request.
+
+Syntax:
+
+$.get(URL,callback);
+The required URL parameter specifies the URL you wish to request.
+
+The optional callback parameter is the name of a function to be executed if the request succeeds.
+
+			#__________#
+
+The $.post() method requests data from the server using an HTTP POST request.
+
+Syntax:
+
+$.post(URL,data,callback);
+The required URL parameter specifies the URL you wish to request.
+
+The optional data parameter specifies some data to send along with the request.
+
+The optional callback parameter is the name of a function to be executed if the request succeeds.
